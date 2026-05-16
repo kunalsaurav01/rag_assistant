@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  api:
+    build: .
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/app
+      - vectorstore:/app/vectorstore
+    env_file:
+      - .env
+    environment:
+      - CHROMA_DB_PATH=/app/vectorstore
+
+volumes:
+  vectorstore:

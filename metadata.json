@@ -1,0 +1,6 @@
+{
+  "name": "DocuMind AI: Self-Corrective RAG Assistant",
+  "description": "A production-grade RAG-based technical documentation assistant using LangGraph, FastAPI, and ChromaDB with self-corrective loops and document grading.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
